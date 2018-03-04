@@ -1,6 +1,7 @@
 FROM continuumio/anaconda3
 
 RUN /opt/conda/bin/conda install jupyter -y --quiet \
+    && pip install pymongo \
     && mkdir /opt/notebooks
 
 EXPOSE 8888
