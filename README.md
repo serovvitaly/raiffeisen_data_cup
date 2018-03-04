@@ -12,7 +12,11 @@ https://boosters.pro/champ_11
 
 
 ##### Установка
+```
 docker build -t anaconda:first .
+```
 
 ##### Запуск
+```
 docker run --rm -it -p 8888:8888 -v ~/docker/anaconda/src:/opt/notebooks anaconda:first
+```
