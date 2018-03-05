@@ -13,10 +13,10 @@ https://boosters.pro/champ_11
 
 ##### Установка
 ```
-docker build -t anaconda:first .
+docker build -t raiffeisen_data_cup .
 ```
 
 ##### Запуск
 ```
-docker run --rm -it -p 8888:8888 -v ~/docker/anaconda/src:/opt/notebooks anaconda:first
+docker run --rm -it -p 8888:8888 -v ~/docker/anaconda/src:/opt/notebooks raiffeisen_data_cup
 ```
