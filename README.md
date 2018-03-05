@@ -18,5 +18,5 @@ docker build -t raiffeisen_data_cup .
 
 ##### Запуск
 ```
-docker run --rm -it -p 8888:8888 -v ~/docker/anaconda/src:/opt/notebooks raiffeisen_data_cup
+docker run --rm -it -p 8888:8888 -v ~/docker/raiffeisen_data_cup/src:/opt/notebooks raiffeisen_data_cup
 ```
